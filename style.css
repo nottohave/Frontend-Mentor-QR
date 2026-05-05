@@ -22,17 +22,19 @@ main {
   font-optical-sizing: auto;
   font-style: normal;
   background-color: var(--slate-300);
-  align-items: center;
+  max-width: 1440px;
+  max-height: 1080px;
   display: flex;
-  -ms-flex-align: center;
+  align-content: center;
+  justify-content: center;
   flex-direction: column;
-
 }
 
 #qr-body {
     width: 320px;
     height: 499px;
-    padding: 16px 16px 40px 16px;
+    margin-top: 20px;
+    padding: 16px 16px 16px 16px;
     display: flex;
     -ms-flex-align: center;
     flex-direction: column;
@@ -51,7 +53,7 @@ main {
     width: 288px;
     height: 131px;
     font-style: unset;
-    padding: 0px 16px 0px 16px;
+    padding: 10px 16px 0px 16px;
     text-align: center;
 }
 
@@ -59,7 +61,6 @@ main {
     height: 52px;
     font-size: 16px;
     color: var(--slate-900);
-    padding: 0px 16px 16px 16px ;
 }
 
 #qr-body p {
@@ -68,6 +69,11 @@ main {
     color: var(--slate-500);
     opacity: 80%;
     padding: 5px;
+}
+
+#attribution {
+    font-size: 12px;
+    visibility: hidden;
 }
 
 /* tablet */
