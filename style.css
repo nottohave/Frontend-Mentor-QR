@@ -24,10 +24,11 @@ main {
   background-color: var(--slate-300);
   max-width: 1440px;
   max-height: 1080px;
-  display: flex;
+
+  display: grid;
+  grid: 65px / auto-flow-column ;
   align-content: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 #qr-body {
@@ -76,11 +77,11 @@ main {
     visibility: hidden;
 }
 
-/* tablet */
-/* @media screen and (min-width: 768px) {
-} */
-
 /* mobile */
-/* @media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
+    main {
+        width: 100vw;
+        height: 100vh;
 
-} */
+    }
+}
