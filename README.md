@@ -1,7 +1,7 @@
 README.md
 
 Frontend Mentor qr code component
-[Check here](nottohave.github.io) 
+[Live Site](nottohave.github.io) 
 
 This is the challenge to do the QR code. 
 
