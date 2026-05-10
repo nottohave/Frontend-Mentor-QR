@@ -16,7 +16,6 @@
  --slate-900: hsl(218, 44%, 22%);
 }
 
-/* design for mobile */
 main {
  font-family: "Outfit", sans-serif;
  font-style: normal;
@@ -80,6 +79,3 @@ main {
 }
 
 
-/* tablet and desktop */
-@media screen and (min-width: 375px) {
-}
