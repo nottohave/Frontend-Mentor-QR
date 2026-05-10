@@ -1,87 +1,85 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 
 @font-face {
-    font-family: "Outfit";
-    src: url(./fonts/Outfit/Outfit-VariableFont_wght.ttf);
+ font-family: "Outfit";
+ src: url(./fonts/Outfit/Outfit-VariableFont_wght.ttf);
 }
 
 :root {
-    --white: hsl(0, 0%, 100%);
-    --slate-300: hsl(212, 45%, 89%);
-    --slate-500: hsl(216, 15%, 48%);
-    --slate-900: hsl(218, 44%, 22%);
+ --white: hsl(0, 0%, 100%);
+ --slate-300: hsl(212, 45%, 89%);
+ --slate-500: hsl(216, 15%, 48%);
+ --slate-900: hsl(218, 44%, 22%);
 }
 
-
+/* design for mobile */
 main {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  background-color: var(--slate-300);
-  max-width: 1440px;
-  max-height: 1080px;
-
-  display: grid;
-  grid: 65px / auto-flow-column ;
-  align-content: center;
-  justify-content: center;
+ font-family: "Outfit", sans-serif;
+ font-style: normal;
+ display: grid;
+ align-content: center;
+ justify-content: center;
+ background-color: var(--slate-300);
 }
 
 #qr-body {
-    width: 320px;
-    height: 499px;
-    margin-top: 20px;
-    padding: 16px 16px 16px 16px;
-    display: flex;
-    -ms-flex-align: center;
-    flex-direction: column;
-    border-radius: 10px;
-    background-color: var(--white);
+ width: 320px;
+ height: 499px;
+ margin-top: 20px;
+ padding: 16px 16px 40px 16px;
+ display: flex;
+ -ms-flex-align: center;
+ flex-direction: column;
+ border-radius: 10px;
+ background-color: var(--white);
+ box-shadow: 10px;
 }
 
 #qr-image {
-    width: 288px;
-    height: 288px;
-    border: solid 5px white;
-    border-radius: 10px;
+ width: 288px;
+ height: 288px;
+ border: solid 5px white;
+ border-radius: 10px;
+}
+
+#qr-p {
+ width: 288px;
+ height: 131px;
+ padding: 10px 16px 0px 16px;
+ text-align: center;
 }
 
 #qr-p {
     width: 288px;
     height: 131px;
-    font-style: unset;
-    padding: 10px 16px 0px 16px;
     text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
-#qr-body h1 {
-    height: 52px;
-    font-size: 16px;
-    color: var(--slate-900);
+#qr-p h1 {
+ font-size: 18px;
+ color: var(--slate-900);
 }
 
-#qr-body p {
-    height: 63px;
-    font-size: 15px;
-    color: var(--slate-500);
-    opacity: 80%;
-    padding: 5px;
+#qr-p p {
+ font-size: 15px;
+ color: var(--slate-500);
+ opacity: 80%;
 }
 
 #attribution {
-    font-size: 12px;
-    visibility: hidden;
+ font-size: 12px;
 }
 
-/* mobile */
-@media screen and (min-width: 375px) {
-    main {
-        width: 100vw;
-        height: 100vh;
 
-    }
+/* tablet and desktop */
+@media screen and (min-width: 375px) {
 }
