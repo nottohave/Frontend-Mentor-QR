@@ -20,7 +20,7 @@ Hello, this is the solution to the QR Code Component page [QR Component Challeng
 
 ### Screensnap
 
-![](./screenshot.png)
+![](./screensnap.png)
 
 
 ### Links
@@ -74,4 +74,4 @@ Developed by this developer.
 
 #### 4 Acknowledgements
 
-Frontend Mentor and the internet.
+Frontend Mentor and various sources.
