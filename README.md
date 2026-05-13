@@ -25,8 +25,8 @@ Hello, this is the solution to the QR Code Component page [QR Component Challeng
 
 ### Links
 
-- Solution URL: [The Solution Page]()
-- Live Site URL: [Live Site](nottohave.github.io/Frontend-Mentor-QR/)
+- Solution URL: https://github.com/nottohave/Frontend-Mentor-QR []()
+- Live Site URL: https://nottohave.github.io/Frontend-Mentor-QR/ []()
 
 ## My Progress
 
