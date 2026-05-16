@@ -32,7 +32,7 @@ main {
  height: 960px;
  position: absolute;
  background: linear-gradient(to left, #0d1012, #616264 75%, #0d1012 50%, #0d1012 75% );
- opacity: 70%;
+ opacity: 80%;
 }
 
 #qr-body {
@@ -45,7 +45,7 @@ main {
  flex-direction: column;
  border-radius: 10px;
  background-color: var(--white);
- box-shadow: 10px;
+ box-shadow: grey 10px 5px 5px; 
 }
 
 #qr-image {
@@ -53,13 +53,6 @@ main {
  height: 288px;
  border: solid 5px white;
  border-radius: 10px;
-}
-
-#qr-p {
- width: 288px;
- height: 131px;
- padding: 10px 16px 0px 16px;
- text-align: center;
 }
 
 #qr-p {
@@ -81,15 +74,15 @@ main {
 #qr-p p {
  font-size: 15px;
  color: var(--slate-500);
- opacity: 80%;
+ opacity: 0.8;
 }
 
 #attribution {
- font-size: 12px;
+ font-size: 15px;
 }
 
-@media screen and (min-width: 375px) {
- columns {
+@media screen and (max-width: 375px) {
+ #columns {
     width: 375px;
     height: 812px;
    }

@@ -16,7 +16,7 @@ Hello, this is the solution to the QR Code Component page [QR Component Challeng
 3 [Author](author)
 4 [Acknowledgements](#acknowledments)
 
-## Overview
+## 1 Overview
 
 ### Screensnap
 
@@ -25,10 +25,10 @@ Hello, this is the solution to the QR Code Component page [QR Component Challeng
 
 ### Links
 
-- Solution URL: [The Solution Page]()
-- Live Site URL: [Live Site](nottohave.github.io/Frontend-Mentor-QR/)
+- Solution URL: [My Solution Page](https://github.com/nottohave/Frontend-Mentor-QR)
+- Live Site URL: [Live Site](https://nottohave.github.io/Frontend-Mentor-QR/)
 
-## My Progress
+## 2 My Process
 
 ### Built With
 
@@ -62,7 +62,7 @@ Hello, this is the solution to the QR Code Component page [QR Component Challeng
 
 ### Continued Development
 
-For future development, I would continue on working with screen compability of the webpage. There is no animation for this project.
+No continued.
 
 ### Useful Resorces
 
