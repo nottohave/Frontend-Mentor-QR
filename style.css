@@ -43,9 +43,9 @@ main {
  display: flex;
  -ms-flex-align: center;
  flex-direction: column;
- border-radius: 10px;
  background-color: var(--white);
- box-shadow: grey 10px 5px 5px; 
+ box-shadow: grey 10px 5px 5px;
+ border-radius: 10px;
 }
 
 #qr-image {
@@ -53,6 +53,7 @@ main {
  height: 288px;
  border: solid 5px white;
  border-radius: 10px;
+
 }
 
 #qr-p {
